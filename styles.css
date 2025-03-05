@@ -3,30 +3,66 @@
     width: 640px;
     height: 380px;
     display: flex;
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 10px 10px 10px 1dvh;
 }
 
 .portrait-column {
     width: 40%;
     background-color: red;
 }
-.img {
+img {
     width: 100%;
     height: 100%;
 }
 
 .information-column {
     width: 60%;
-    background-color: green;
+    background-color: #2b3944;
+    font-family: 'Roboto';
+    font-style: normal;
+    border: 1px solid white;
 }
 
 .Name-information {
     height: 50%;
-    border: 2px solid black;
-    background-color: yellow;
+    background-color: #192028;
+}
+
+.John-Paul-II {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Roboto';
+    padding:10px;
+}
+
+.THE-POPE {
+    width: 160px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 60px;
+    font-size: 20px;
+    color: #6487a2;
+    margin: 10px;
 }
 
 .contact-information {
     height: 50%;
-    border: 2px solid black;
-    background-color: red;
+    border: 2px rgb(253, 253, 253);
+    background-color: #2B3944;
+    border-top:2px solid #ffffff;
+
+    .box-image {
+
+        width:40px;
+        height 40px;
+    }
+
+
+
 }
+
