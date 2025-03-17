@@ -31,6 +31,7 @@ width: 100%;
 }
 
 .John-Paul-II {
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -87,9 +88,11 @@ width: 100%;
         }
 
         .ikona {
-            height: 28px;
-            width: 28px;
+            height: 25px;
+            width: 25px;
             display: flex;
+            padding: 8px;
+            padding-left:10px;
         }
 
 
